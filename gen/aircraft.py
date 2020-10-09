@@ -783,7 +783,7 @@ class AircraftConflictGenerator:
             divert=None,
             # Waypoints are added later, after they've had their TOTs set.
             waypoints=[],
-            intra_flight_channel=channel
+            intra_flight_channel=channel,
             targetPoint=flight.targetPoint,
         ))
 
